@@ -172,6 +172,7 @@ namespace chat_bot
                     case "food":
                         Console.WriteLine("");
                         Console.WriteLine("across our parks we provide a wide array of food depending on your location in the park: ");
+                        console.WriteLine("")
                         break;
 
                     case "clear":
