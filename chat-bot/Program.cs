@@ -172,6 +172,17 @@ namespace chat_bot
                     case "food":
                         Console.WriteLine("");
                         Console.WriteLine("across our parks we provide a wide array of food depending on your location in the park: ");
+                        Console.WriteLine("");
+                        Console.WriteLine("Adventure Alley: ");
+                        Console.WriteLine("");
+                        Console.WriteLine("Fantasy Frontier: ");
+                        Console.WriteLine("");
+                        Console.WriteLine("Wildlife Wonderland: ");
+                        Console.WriteLine("");
+                        Console.WriteLine("Sci-Fi Sector: ");
+                        Console.WriteLine("");
+                        Console.WriteLine("Enchanted Gardens: ");
+                        Console.WriteLine("");
                         break;
 
                     case "clear":
