@@ -308,7 +308,111 @@ namespace chat_bot
 
         static void dispshops() //handels displaying shop info
         {
+            Console.WriteLine("");
+            Console.WriteLine("please pick from one of our sectors to dispaly shops: ");
+            Console.WriteLine("");
+            Console.WriteLine("Adventure Alley");
+            Console.WriteLine("Fantasy Frontier");
+            Console.WriteLine("Wildlife Wonderland");
+            Console.WriteLine("Sci-Fi Sector");
+            Console.WriteLine("Enchanted Gardens");
 
+
+            Console.WriteLine("");
+            Console.Write(">>> ");
+            string shopchoice = Console.ReadLine();
+            shopchoice = shopchoice.ToLower();
+            
+            switch (shopchoice)
+            {   
+                case "adventure alley" or "adventure" or "alley" or "1":
+                    Console.WriteLine("");
+                    Console.WriteLine("in the Adventure Alley we have the: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Gear Up Outfitters: ");
+                    Console.WriteLine("Offers hiking gear, backpacks, and adventure apparel");
+                    Console.WriteLine("");
+                    Console.WriteLine("Treasure Trove Emporium: ");
+                    Console.WriteLine("Sells souvenirs, maps, and explorer-themed gifts");
+                    Console.WriteLine("");
+                    Console.WriteLine("Expedition Supplies Co: ");
+                    Console.WriteLine("Provides camping equipment, survival tools, and outdoor accessories");
+                    Console.WriteLine("");
+                    Console.WriteLine("Safari Safari: ");
+                    Console.WriteLine("Specializes in wildlife-themed toys, plush animals, and safari gear");
+                    Console.WriteLine("");
+                    Console.WriteLine("Adventure Artifacts: ");
+                    Console.WriteLine("Features artifacts, fossils, and replicas from around the world");
+                    break;
+
+                case "fantasy frontier" or "fantasy" or "frontier" or "2":
+                    Console.WriteLine("");
+                    Console.WriteLine("in the Fantasy Frontier we have the: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Wizard's Wonders: ");
+                    Console.WriteLine("Offers magical wands, spellbooks, and fantasy-themed collectibles.");
+                    Console.WriteLine("");
+                    Console.WriteLine("Dragon's Hoard: ");
+                    Console.WriteLine("Sells dragon figurines, fantasy jewelry, and mystical artifacts.");
+                    break;
+
+                case "wildlife wonderland" or "wildlife" or "wonderland" or "3":
+                    Console.WriteLine("");
+                    Console.WriteLine("in the Wildlife Wonderland we have the: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Animal Kingdom Boutique:");
+                    Console.WriteLine("Offers wildlife-themed clothing, stuffed animals, and educational toys.");
+                    Console.WriteLine("");
+                    Console.WriteLine("Nature's Treasures:");
+                    Console.WriteLine("Sells nature-inspired home decor, books on wildlife, and eco-friendly gifts.");
+                    break;
+                    
+                case "sci-fi sector" or "sci-fi" or "sector" or "4":
+                    Console.WriteLine("");
+                    Console.WriteLine("in the Sci-Fi Sector we have the: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Galaxy Gear Emporium: ");
+                    Console.WriteLine("Offers futuristic gadgets, space-themed toys, and sci-fi memorabilia.");
+                    Console.WriteLine("");
+                    Console.WriteLine("Alien Oddities: ");
+                    Console.WriteLine("Sells extraterrestrial souvenirs, UFO models, and alien-themed apparel.");
+                    break;
+
+                case "enchanted gardens" or "enchanted" or "gardens" or "5":
+                    Console.WriteLine("");
+                    Console.WriteLine("in the Enchanted Gardens we have the: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Fairy Fashions: ");
+                    Console.WriteLine("Offers fairy wings, enchanted dresses, and magical accessories.");
+                    Console.WriteLine("");
+                    Console.WriteLine("Enchanted Elixirs: ");
+                    Console.WriteLine("Sells herbal teas, potions, and mystical elixirs for relaxation and wellness.");
+                    break;
+                    
+                case "calculator" or "price calculator": //runs price calculator
+                        TicketCalculator();
+                        break;
+                
+                case "clear": //clears console 
+                    Console.Clear();
+                    dispshops();
+                    break;
+
+                case "exit": //exits program and console
+                    Environment.Exit(0);
+                    break;
+
+                case "help" or "-h": //displays help text
+                    HelpText();
+                    dispshops();
+                    break;
+                
+                default:
+                    Console.WriteLine("");
+                    Console.WriteLine("invalid sintax please input your choice again");
+                    dispshops();
+                    break;
+            }
         }
 
         static void HelpText() //handles displaying help text 
@@ -333,7 +437,6 @@ namespace chat_bot
             {
                 Console.WriteLine("");
                 Console.Write(">>> ");
-
                 string choice = Console.ReadLine();
                 choice = choice.ToLower();         
 
@@ -387,7 +490,7 @@ namespace chat_bot
                         dispfood();    
                         break;
                     
-                    case "shops":
+                    case "shops" or "shop":
                         dispshops();
                         break;
 
