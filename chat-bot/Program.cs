@@ -108,97 +108,111 @@ namespace chat_bot
             string foodchoice = Console.ReadLine(); //handles taking imputs
             foodchoice = foodchoice.ToLower(); //convets inputs to lower case 
 
-            if (foodchoice == "adventure alley" || foodchoice == "adventure" ||  foodchoice == "1")
+            switch (foodchoice)
             {
-                Console.WriteLine("");
-                Console.WriteLine("Adventure Alley: ");
-                Console.WriteLine("");
-                Console.WriteLine("Jungle Feast Food: ");
-                Console.WriteLine("Grilled Chicken Skewers:                 £6.50");
-                Console.WriteLine("Vegetable Spring Rolls:                  £4.50");
-                Console.WriteLine("Tropical Fruit Salad:                    £3.50");
-                Console.WriteLine("");
-                Console.WriteLine("Explorers' Grill Restaurant: ");
-                Console.WriteLine("Bison Burger with Fries:                 £9.50");
-                Console.WriteLine("Fish Tacos with Mango Salsa:             £8.50");
-                Console.WriteLine("Campfire BBQ Ribs:                       £10.50");
-                Console.WriteLine("");
-            }
+                case "adventure alley" or "adventure" or "alley" or "1":
+                    Console.WriteLine("");
+                    Console.WriteLine("Adventure Alley: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Jungle Feast Food: ");
+                    Console.WriteLine("Grilled Chicken Skewers:                 £6.50");
+                    Console.WriteLine("Vegetable Spring Rolls:                  £4.50");
+                    Console.WriteLine("Tropical Fruit Salad:                    £3.50");
+                    Console.WriteLine("");
+                    Console.WriteLine("Explorers' Grill Restaurant: ");
+                    Console.WriteLine("Bison Burger with Fries:                 £9.50");
+                    Console.WriteLine("Fish Tacos with Mango Salsa:             £8.50");
+                    Console.WriteLine("Campfire BBQ Ribs:                       £10.50");
+                    Console.WriteLine("");
+                    break:
                         
-            else if (foodchoice == "fantasy frontier" || foodchoice == "fantasy" || foodchoice == "2")
-            {
-                Console.WriteLine("");
-                Console.WriteLine("Fantasy Frontier: ");
-                Console.WriteLine("");
-                Console.WriteLine("Dragon's Roost: ");
-                Console.WriteLine("");
-                Console.WriteLine("Dragonfire Chili:                        £7.50");
-                Console.WriteLine("Unicorn Corn Dogs:                       £5.50");
-                Console.WriteLine("Fairy Floss (Cotton Candy):              £3.00");
-                Console.WriteLine("");
-                Console.WriteLine("Knight's Banquet Restaurant:");
-                Console.WriteLine("xcalibur Steak with Roasted Vegetables:  £15.50");
-                Console.WriteLine("");
-                Console.WriteLine("Wizard's Pasta with Marinara Sauce:      £12.50");
-                Console.WriteLine("Elven Salad with Forest Berries:         £8.50");
-                Console.WriteLine("");
-            }
+                case "fantasy frontier" or "fantasy" or "frontier" or "2":
+                    Console.WriteLine("");
+                    Console.WriteLine("Fantasy Frontier: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Dragon's Roost: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Dragonfire Chili:                        £7.50");
+                    Console.WriteLine("Unicorn Corn Dogs:                       £5.50");
+                    Console.WriteLine("Fairy Floss (Cotton Candy):              £3.00");
+                    Console.WriteLine("");
+                    Console.WriteLine("Knight's Banquet Restaurant:");
+                    Console.WriteLine("xcalibur Steak with Roasted Vegetables:  £15.50");
+                    Console.WriteLine("Wizard's Pasta with Marinara Sauce:      £12.50");
+                    Console.WriteLine("Elven Salad with Forest Berries:         £8.50");
+                    Console.WriteLine("");
+                    break;
+            
+                case "wildlife Wonderland" or "wildlife" or "wonderland" or "3":
+                    Console.WriteLine("");
+                    Console.WriteLine("Wildlife Wonderland: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Safari Snacks:");
+                    Console.WriteLine("Zebra Striped Popcorn:                   £4.00");
+                    Console.WriteLine("Safari Trail Mix:                        £3.50");
+                    Console.WriteLine("Hippo-Size Pretzel:                      £5.00");
+                    Console.WriteLine("");
+                    Console.WriteLine("Jungle Oasis Restaurant:");
+                    Console.WriteLine("Tandoori Chicken with Basmati Rice:      £11.50");
+                    Console.WriteLine("Elephant Ear Thai Curry with Naan Bread: £10.50");
+                    Console.WriteLine("Greens Salad with Coconut Dressing:      £7.50");
+                    Console.WriteLine("");
+                    break;
+            
+                case "sci-fi sector" or "sci-fi" or "sector" or "4":
+                    Console.WriteLine("");
+                    Console.WriteLine("Sci-Fi Sector: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Galactic Grub: ");
+                    Console.WriteLine("Space Burger with Galactic Fries:        £8.50");
+                    Console.WriteLine("Nebula Nachos:                           £6.50");
+                    Console.WriteLine("Photon Pops (Glow-in-the-Dark Popcorn):  £4.00");
+                    Console.WriteLine("");
+                    Console.WriteLine("Alien Cafe Restaurant:");
+                    Console.WriteLine("Interstellar Pizza with Rocket Pesto:    £9.50");
+                    Console.WriteLine("Cyborg Stir-Fry with Cosmic Rice:        £11.50");
+                    Console.WriteLine("UFO Salad with Martian Vinaigrette:      £7.50");
+                    Console.WriteLine("");
+                    break;
+            
+                case "enchanted gardens" or "enchanted" or "gardens" or "5":
+                    Console.WriteLine("");
+                    Console.WriteLine("Enchanted Gardens: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("Pixie Pastries: ");
+                    Console.WriteLine("Fairy Cakes (Assorted Cupcakes):         £4.50");
+                    Console.WriteLine("Enchanted Eclairs:                       £3.50");
+                    Console.WriteLine("Magic Muffins:                           £2.50");
+                    Console.WriteLine("");
+                    Console.WriteLine("Unicorn's Retreat Restaurant:");
+                    Console.WriteLine("Enchanted Forest Risotto:                £12.50");
+                    Console.WriteLine("Mermaid's Linguine with Seafood:         £14.50");
+                    Console.WriteLine("Garden Salad with Ambrosia Dressing:     £8.50");
+                    break;
 
-            else if (foodchoice == "Wildlife Wonderland" || foodchoice == "Wildlife" || foodchoice == "3")
-            {
-                Console.WriteLine("");
-                Console.WriteLine("Wildlife Wonderland: ");
-                Console.WriteLine("");
-                Console.WriteLine("Safari Snacks:");
-                Console.WriteLine("Zebra Striped Popcorn:                   £4.00");
-                Console.WriteLine("Safari Trail Mix:                        £3.50");
-                Console.WriteLine("Hippo-Size Pretzel:                      £5.00");
-                Console.WriteLine("");
-                Console.WriteLine("Jungle Oasis Restaurant:");
-                Console.WriteLine("Tandoori Chicken with Basmati Rice:      £11.50");
-                Console.WriteLine("Elephant Ear Thai Curry with Naan Bread: £10.50");
-                Console.WriteLine("Greens Salad with Coconut Dressing:      £7.50");
-                Console.WriteLine("");
-            }
+                case "calculator" or "price calculator": //runs price calculator
+                    TicketCalculator();
+                    break;
+                
+                case "clear": //clears console 
+                    Console.Clear();
+                    disprides();
+                    break;
 
-            else if (foodchoice == "sci-fi sector" || foodchoice == "sci-fi" || foodchoice == "4")
-            {
-                Console.WriteLine("");
-                Console.WriteLine("Sci-Fi Sector: ");
-                Console.WriteLine("");
-                Console.WriteLine("Galactic Grub: ");
-                Console.WriteLine("Space Burger with Galactic Fries:        £8.50");
-                Console.WriteLine("Nebula Nachos:                           £6.50");
-                Console.WriteLine("Photon Pops (Glow-in-the-Dark Popcorn):  £4.00");
-                Console.WriteLine("");
-                Console.WriteLine("Alien Cafe Restaurant:");
-                Console.WriteLine("Interstellar Pizza with Rocket Pesto:    £9.50");
-                Console.WriteLine("Cyborg Stir-Fry with Cosmic Rice:        £11.50");
-                Console.WriteLine("UFO Salad with Martian Vinaigrette:      £7.50");
-                Console.WriteLine("");
-            }
+                case "exit": //exits program and console
+                    Environment.Exit(0);
+                    break;
 
-            else if (foodchoice == "enchanted gardens" || foodchoice == "enchanted" || foodchoice == "gardens" || foodchoice == "5")
-            {
-                Console.WriteLine("");
-                Console.WriteLine("Enchanted Gardens: ");
-                Console.WriteLine("");
-                Console.WriteLine("Pixie Pastries: ");
-                Console.WriteLine("Fairy Cakes (Assorted Cupcakes):         £4.50");
-                Console.WriteLine("Enchanted Eclairs:                       £3.50");
-                Console.WriteLine("Magic Muffins:                           £2.50");
-                Console.WriteLine("");
-                Console.WriteLine("Unicorn's Retreat Restaurant:");
-                Console.WriteLine("Enchanted Forest Risotto:                £12.50");
-                Console.WriteLine("Mermaid's Linguine with Seafood:         £14.50");
-                Console.WriteLine("Garden Salad with Ambrosia Dressing:     £8.50");
-            }
+                case "help" or "-h": //displays help text
+                    HelpText();
+                    disprides();
+                    break;
 
-            else 
-            {
-                Console.WriteLine("");
-                Console.WriteLine("invalid sintax please input your choice again");
-                dispfood();
+                default:
+                    Console.WriteLine("");
+                    Console.WriteLine("invalid sintax please input your choice again");
+                    dispfood();
+                break;
             }
         }
 
@@ -265,9 +279,10 @@ namespace chat_bot
                     Console.WriteLine("child rides: ");
                     Console.WriteLine("");
                     break;
+
                 case "calculator" or "price calculator": //runs price calculator
-                        TicketCalculator();
-                        break;
+                    TicketCalculator();
+                    break;
                 
                 case "clear": //clears console 
                     Console.Clear();
