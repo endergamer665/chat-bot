@@ -265,7 +265,7 @@ namespace chat_bot
                     Console.WriteLine("child rides: ");
                     Console.WriteLine("");
                     break;
-                ase "calculator" or "price calculator": //runs price calculator
+                case "calculator" or "price calculator": //runs price calculator
                         TicketCalculator();
                         break;
                 
