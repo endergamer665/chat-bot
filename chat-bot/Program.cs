@@ -419,7 +419,7 @@ namespace chat_bot
         {
             Console.WriteLine("");
             Console.WriteLine("Frequently Used Questions:");
-            Console.WriteLine("opening times \nticket prices \nrides \nfood");
+            Console.WriteLine("opening times \nticket prices \nrides \nfood \nshops");
             Console.WriteLine("");
             Console.WriteLine("Avalible Commands:");
             Console.WriteLine("calculator       opens the price calculator");
