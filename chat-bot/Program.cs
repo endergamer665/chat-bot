@@ -196,6 +196,7 @@ namespace chat_bot
 
                         else 
                         {
+                            Console.WriteLine("");
                             Console.WriteLine("invalid sintax please input your choice again");
                             dispfood();
                         }
