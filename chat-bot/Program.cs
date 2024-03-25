@@ -265,8 +265,11 @@ namespace chat_bot
                     Console.WriteLine("child rides: ");
                     Console.WriteLine("");
                     break;
+                ase "calculator" or "price calculator": //runs price calculator
+                        TicketCalculator();
+                        break;
                 
-                case "clear":
+                case "clear": //clears console 
                     Console.Clear();
                     disprides();
                     break;
@@ -365,7 +368,7 @@ namespace chat_bot
                         dispfood();    
                         break;
 
-                    case "clear":
+                    case "clear": //clears console 
                         Console.Clear();
                         break;
 
