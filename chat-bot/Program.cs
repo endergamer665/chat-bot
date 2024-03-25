@@ -186,7 +186,7 @@ namespace chat_bot
                         Console.WriteLine("Bison Burger with Fries:                 £9.50");
                         Console.WriteLine("Fish Tacos with Mango Salsa:             £8.50");
                         Console.WriteLine("Campfire BBQ Ribs:                       £10.50");
-                        Console.WriteLine("")
+                        Console.WriteLine("");
 
                         
                         Console.WriteLine("Fantasy Frontier: ");
@@ -243,7 +243,6 @@ namespace chat_bot
                         Console.WriteLine("Enchanted Forest Risotto:                £12.50");
                         Console.WriteLine("Mermaid's Linguine with Seafood:         £14.50");
                         Console.WriteLine("Garden Salad with Ambrosia Dressing:     £8.50");
->>>>>>> dispfood
                         break;
 
                     case "clear":
