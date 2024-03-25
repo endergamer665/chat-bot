@@ -282,8 +282,7 @@ namespace chat_bot
                         break;
 
                     case "food": //runs dipfood modual
-                        dispfood();
-                        
+                        dispfood();    
                         break;
 
                     case "clear":
