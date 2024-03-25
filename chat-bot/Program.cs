@@ -89,7 +89,7 @@ namespace chat_bot
             }
             
         }
-        static void dispfood()
+        static void dispfood() //handles displying food locations and prices 
         {
             Console.WriteLine("");
             Console.WriteLine("across our parks we provide a wide array of food depending on your location in the park: ");
@@ -105,8 +105,8 @@ namespace chat_bot
 
             Console.WriteLine("");
             Console.Write(">>> ");
-            string foodchoice = Console.ReadLine();
-            foodchoice = foodchoice.ToLower();         
+            string foodchoice = Console.ReadLine(); //handles taking imputs
+            foodchoice = foodchoice.ToLower(); //convets inputs to lower case 
 
             if (foodchoice == "adventure alley" || foodchoice == "adventure" ||  foodchoice == "1")
             {
@@ -281,7 +281,7 @@ namespace chat_bot
 
                         break;
 
-                    case "food":
+                    case "food": //runs dipfood modual
                         dispfood();
                         
                         break;
