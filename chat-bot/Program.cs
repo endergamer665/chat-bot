@@ -419,7 +419,7 @@ namespace chat_bot
         {
             Console.WriteLine("");
             Console.WriteLine("Frequently Used Questions:");
-            Console.WriteLine("opening times \nticket prices \nrides \nfood \nshops");
+            Console.WriteLine("[1] opening times \n[2] ticket prices \n[3] rides \n[4] food \n[5] shops");
             Console.WriteLine("");
             Console.WriteLine("Avalible Commands:");
             Console.WriteLine("calculator       opens the price calculator");
@@ -442,7 +442,7 @@ namespace chat_bot
 
                 switch (choice) //used to display text based on inputs above
                 {
-                    case "opening times": //displayes opening times
+                    case "opening times" or "1": //displayes opening times
                         Console.WriteLine("");
                         Console.WriteLine("The opening times for our parks are:");
                         Console.WriteLine("");
@@ -459,7 +459,7 @@ namespace chat_bot
                         Console.WriteLine("Sunday           11:00                   19:00");
                         break;
 
-                    case "ticket prices": //displayes ticket prices
+                    case "ticket prices" or "2": //displayes ticket prices
                         Console.WriteLine("");
                         Console.WriteLine("the current ticket price are:");
                         Console.WriteLine("");
@@ -482,15 +482,15 @@ namespace chat_bot
                         TicketCalculator();
                         break;
 
-                    case "rides":
+                    case "rides" or "3":
                         disprides();
                         break;
 
-                    case "food": //runs dipfood modual
+                    case "food" or "4": //runs dipfood modual
                         dispfood();    
                         break;
                     
-                    case "shops" or "shop":
+                    case "shops" or "shop" or "5":
                         dispshops();
                         break;
 
