@@ -291,6 +291,11 @@ namespace chat_bot
             }
         }
 
+        static void dispshops() //handels displaying shop info
+        {
+
+        }
+
         static void HelpText() //handles displaying help text 
         {
             Console.WriteLine("");
@@ -365,6 +370,10 @@ namespace chat_bot
 
                     case "food": //runs dipfood modual
                         dispfood();    
+                        break;
+                    
+                    case "shops":
+                        dispshops();
                         break;
 
                     case "clear": //clears console 
