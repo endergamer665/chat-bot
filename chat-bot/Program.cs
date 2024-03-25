@@ -87,8 +87,8 @@ namespace chat_bot
                 Console.WriteLine("somthing went wrong restarting module");
                 TicketCalculator();
             }
-            
         }
+
         static void dispfood() //handles displying food locations and prices 
         {
             Console.WriteLine("");
@@ -201,6 +201,12 @@ namespace chat_bot
                 dispfood();
             }
         }
+
+        static void disprides() //handles displaying ride names text 
+        {
+            
+        }
+
         static void HelpText() //handles displaying help text 
         {
             Console.WriteLine("");
@@ -213,6 +219,7 @@ namespace chat_bot
             Console.WriteLine("help -h          displayes this text");
             Console.WriteLine("exit             exits program");
         }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello welcome to the Ledend Parks Chatbot sevise");
