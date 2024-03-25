@@ -289,7 +289,6 @@ namespace chat_bot
                     disprides();
                     break;
             }
-            
         }
 
         static void HelpText() //handles displaying help text 
@@ -386,7 +385,6 @@ namespace chat_bot
                         HelpText();
                         break;
                 }
-
             }
         }
     }
