@@ -174,7 +174,7 @@ namespace chat_bot
                         Console.WriteLine("across our parks we provide a wide array of food depending on your location in the park: ");
                         Console.WriteLine("");
 
-
+            
                         Console.WriteLine("Adventure Alley: ");
                         Console.WriteLine("");
                         Console.WriteLine("Jungle Feast Food: ");
@@ -186,7 +186,7 @@ namespace chat_bot
                         Console.WriteLine("Bison Burger with Fries:                 £9.50");
                         Console.WriteLine("Fish Tacos with Mango Salsa:             £8.50");
                         Console.WriteLine("Campfire BBQ Ribs:                       £10.50");
-                        Console.WriteLine("")
+                        Console.WriteLine("");
 
                         
                         Console.WriteLine("Fantasy Frontier: ");
