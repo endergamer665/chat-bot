@@ -282,28 +282,7 @@ namespace chat_bot
                         break;
 
                     case "food":
-<<<<<<< HEAD
-                        Console.WriteLine("");
-                        Console.WriteLine("across our parks we provide a wide array of food depending on your location in the park: ");
-                        Console.WriteLine("");
-
-
-                        Console.WriteLine("Adventure Alley: ");
-                        Console.WriteLine("");
-                        Console.WriteLine("Jungle Feast Food: ");
-                        Console.WriteLine("Grilled Chicken Skewers:                 £6.50");
-                        Console.WriteLine("Vegetable Spring Rolls:                  £4.50");
-                        Console.WriteLine("Tropical Fruit Salad:                    £3.50");
-                        Console.WriteLine("");
-                        Console.WriteLine("Explorers' Grill Restaurant: ");
-                        Console.WriteLine("Bison Burger with Fries:                 £9.50");
-                        Console.WriteLine("Fish Tacos with Mango Salsa:             £8.50");
-                        Console.WriteLine("Campfire BBQ Ribs:                       £10.50");
-                        Console.WriteLine("");
-
-=======
                         dispfood();
->>>>>>> dispfood
                         
                         break;
 
