@@ -124,7 +124,7 @@ namespace chat_bot
                     Console.WriteLine("Fish Tacos with Mango Salsa:             £8.50");
                     Console.WriteLine("Campfire BBQ Ribs:                       £10.50");
                     Console.WriteLine("");
-                    break:
+                    break;
                         
                 case "fantasy frontier" or "fantasy" or "frontier" or "2":
                     Console.WriteLine("");
