@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Xml.Serialization;
+using System.Text;
+// using Colorful;
+// using Console = Colorful.Console;
 
 namespace chat_bot
 {
@@ -415,6 +418,24 @@ namespace chat_bot
             }
         }
 
+        static void logo()
+        {
+            string logo = @"
+             _                           _                    _        
+            | |                         | |                  | |       
+            | | ___  __ _  ___ _ __   __| |  _ __   __ _ _ __| | _____ 
+            | |/ _ \/ _` |/ _ \ '_ \ / _` | | '_ \ / _` | '__| |/ / __|
+            | |  __/ (_| |  __/ | | | (_| | | |_) | (_| | |  |   <\__ \
+            |_|\___|\__, |\___|_| |_|\__,_| | .__/ \__,_|_|  |_|\_\___/
+                     __/ |                  | |                        
+                    |___/                   |_|                        
+            ";
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(logo);
+            Console.ResetColor();
+        }
+
         static void HelpText() //handles displaying help text 
         {
             Console.WriteLine("");
@@ -430,7 +451,8 @@ namespace chat_bot
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello welcome to the Ledend Parks Chatbot sevise");
+            logo();
+            Console.WriteLine("welcome to the Ledend Parks Chatbot sevise");
             HelpText();
 
             while (true)
