@@ -161,7 +161,7 @@ namespace chat_bot
                 Console.WriteLine("");
             }
 
-            else if (foodchoice == "sci-Fi sector" || foodchoice == "sci-fi" || foodchoice == "4")
+            else if (foodchoice == "sci-fi sector" || foodchoice == "sci-fi" || foodchoice == "4")
             {
                 Console.WriteLine("");
                 Console.WriteLine("Sci-Fi Sector: ");
@@ -203,7 +203,89 @@ namespace chat_bot
         }
 
         static void disprides() //handles displaying ride names text 
-        {
+        {   
+            Console.WriteLine("");
+            Console.WriteLine("some rides are not sutabel for children under 12:");
+            Console.WriteLine("please pick from one of our sectors that have rides: ");
+            Console.WriteLine("");
+            Console.WriteLine("Fantasy Frontier");
+            Console.WriteLine("Wildlife Wonderland");
+            Console.WriteLine("Sci-Fi Sector");
+            Console.WriteLine("Enchanted Gardens");
+
+            Console.WriteLine("");
+            Console.Write(">>> ");
+            string sectorchoice = Console.ReadLine(); //handles taking imputs
+            sectorchoice = sectorchoice.ToLower(); //convets inputs to lower case
+
+            switch (sectorchoice)
+            {
+                case "adventure alley" or "adventure" or "alley" or "1":
+                    Console.WriteLine("");
+                    Console.WriteLine("the adventuer alley douse not have any rides but there is a wide array of shops");
+                    Console.WriteLine("use the shop option to display the shops in each sector");
+                    break;
+                
+                case "fantasy frontier" or "fantasy" or "frontier" or "2":
+                    Console.WriteLine("");
+                    Console.WriteLine("Fantasy Frontier:"); 
+                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("");
+                    break;
+                
+                case "wildlife wonderland" or "wildlife" or "wonderland" or "3":
+                    Console.WriteLine("");
+                    Console.WriteLine("Wildlife Wonderland:"); 
+                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("");
+                    break;
+
+                case "sci-fi sector" or "sci-fi" or "sector" or "sci" or "4":
+                    Console.WriteLine("");
+                    Console.WriteLine("Sci-Fi Sector: "); 
+                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("");
+                    break;
+
+                case "enchanted gardens" or "enchanted" or "gardens" or "5":
+                    Console.WriteLine("");
+                    Console.WriteLine("Enchanted Gardens");
+                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("");
+                    break;
+                
+                case "clear":
+                    Console.Clear();
+                    disprides();
+                    break;
+
+                case "exit": //exits program and console
+                    Environment.Exit(0);
+                    break;
+
+                case "help" or "-h": //displays help text
+                    HelpText();
+                    disprides();
+                    break;
+                
+                default:
+                    Console.WriteLine("");
+                    Console.WriteLine("invalid sintax please input your choice again");
+                    disprides();
+                    break;
+            }
             
         }
 
@@ -276,16 +358,7 @@ namespace chat_bot
                         break;
 
                     case "rides":
-                        Console.WriteLine("");
-                        Console.WriteLine("some rides are not sutabel for children under 12:");
-                        Console.WriteLine("");
-                        Console.WriteLine("adult rides: ");
-                        Console.WriteLine("");
-                        Console.WriteLine("");
-                        Console.WriteLine("child rides: ");
-                        Console.WriteLine("");
-                        Console.WriteLine("");
-
+                        disprides();
                         break;
 
                     case "food": //runs dipfood modual
