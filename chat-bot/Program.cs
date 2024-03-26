@@ -147,8 +147,10 @@ namespace chat_bot
             Console.WriteLine("across our parks we provide a wide array of food depending on your location in the park: ");
             Console.WriteLine("");
 
+            Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
             Console.WriteLine("where in the park do you want to eat? ");
             Console.WriteLine("your options are:");
+            Console.ResetColor(); //converts text back to the default colour
 
             Console.Write("[");
             Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
@@ -194,14 +196,17 @@ namespace chat_bot
             {
                 case "adventure alley" or "adventure" or "alley" or "1":
                     Console.WriteLine("");
-                    Console.WriteLine("Adventure Alley: ");
-                    Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
+                    Console.WriteLine("Adventure Alley ");
                     Console.WriteLine("Jungle Feast Food: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Grilled Chicken Skewers:                 £6.50");
                     Console.WriteLine("Vegetable Spring Rolls:                  £4.50");
                     Console.WriteLine("Tropical Fruit Salad:                    £3.50");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Explorers' Grill Restaurant: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Bison Burger with Fries:                 £9.50");
                     Console.WriteLine("Fish Tacos with Mango Salsa:             £8.50");
                     Console.WriteLine("Campfire BBQ Ribs:                       £10.50");
@@ -210,15 +215,18 @@ namespace chat_bot
                         
                 case "fantasy frontier" or "fantasy" or "frontier" or "2":
                     Console.WriteLine("");
-                    Console.WriteLine("Fantasy Frontier: ");
-                    Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
+                    Console.WriteLine("Fantasy Frontier ");
                     Console.WriteLine("Dragon's Roost: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     Console.WriteLine("Dragonfire Chili:                        £7.50");
                     Console.WriteLine("Unicorn Corn Dogs:                       £5.50");
                     Console.WriteLine("Fairy Floss (Cotton Candy):              £3.00");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Knight's Banquet Restaurant:");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("xcalibur Steak with Roasted Vegetables:  £15.50");
                     Console.WriteLine("Wizard's Pasta with Marinara Sauce:      £12.50");
                     Console.WriteLine("Elven Salad with Forest Berries:         £8.50");
@@ -227,14 +235,17 @@ namespace chat_bot
             
                 case "wildlife Wonderland" or "wildlife" or "wonderland" or "3":
                     Console.WriteLine("");
-                    Console.WriteLine("Wildlife Wonderland: ");
-                    Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
+                    Console.WriteLine("Wildlife Wonderland ");
                     Console.WriteLine("Safari Snacks:");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Zebra Striped Popcorn:                   £4.00");
                     Console.WriteLine("Safari Trail Mix:                        £3.50");
                     Console.WriteLine("Hippo-Size Pretzel:                      £5.00");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Jungle Oasis Restaurant:");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Tandoori Chicken with Basmati Rice:      £11.50");
                     Console.WriteLine("Elephant Ear Thai Curry with Naan Bread: £10.50");
                     Console.WriteLine("Greens Salad with Coconut Dressing:      £7.50");
@@ -243,14 +254,17 @@ namespace chat_bot
             
                 case "sci-fi sector" or "sci-fi" or "sector" or "4":
                     Console.WriteLine("");
-                    Console.WriteLine("Sci-Fi Sector: ");
-                    Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
+                    Console.WriteLine("Sci-Fi Sector ");
                     Console.WriteLine("Galactic Grub: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Space Burger with Galactic Fries:        £8.50");
                     Console.WriteLine("Nebula Nachos:                           £6.50");
                     Console.WriteLine("Photon Pops (Glow-in-the-Dark Popcorn):  £4.00");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Alien Cafe Restaurant:");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Interstellar Pizza with Rocket Pesto:    £9.50");
                     Console.WriteLine("Cyborg Stir-Fry with Cosmic Rice:        £11.50");
                     Console.WriteLine("UFO Salad with Martian Vinaigrette:      £7.50");
@@ -259,14 +273,17 @@ namespace chat_bot
             
                 case "enchanted gardens" or "enchanted" or "gardens" or "5":
                     Console.WriteLine("");
-                    Console.WriteLine("Enchanted Gardens: ");
-                    Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
+                    Console.WriteLine("Enchanted Gardens ");
                     Console.WriteLine("Pixie Pastries: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Fairy Cakes (Assorted Cupcakes):         £4.50");
                     Console.WriteLine("Enchanted Eclairs:                       £3.50");
                     Console.WriteLine("Magic Muffins:                           £2.50");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Unicorn's Retreat Restaurant:");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Enchanted Forest Risotto:                £12.50");
                     Console.WriteLine("Mermaid's Linguine with Seafood:         £14.50");
                     Console.WriteLine("Garden Salad with Ambrosia Dressing:     £8.50");
@@ -354,41 +371,57 @@ namespace chat_bot
                 
                 case "fantasy frontier" or "fantasy" or "frontier" or "2":
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Fantasy Frontier:"); 
                     Console.WriteLine("adult rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("child rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     break;
                 
                 case "wildlife wonderland" or "wildlife" or "wonderland" or "3":
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Wildlife Wonderland:"); 
                     Console.WriteLine("adult rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("child rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     break;
 
                 case "sci-fi sector" or "sci-fi" or "sector" or "sci" or "4":
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Sci-Fi Sector: "); 
                     Console.WriteLine("adult rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("child rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     break;
 
                 case "enchanted gardens" or "enchanted" or "gardens" or "5":
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Enchanted Gardens");
                     Console.WriteLine("adult rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("child rides: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("");
                     break;
 
@@ -468,21 +501,32 @@ namespace chat_bot
             {   
                 case "adventure alley" or "adventure" or "alley" or "1":
                     Console.WriteLine("");
+                    
                     Console.WriteLine("in the Adventure Alley we have the: ");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Gear Up Outfitters: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Offers hiking gear, backpacks, and adventure apparel");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Treasure Trove Emporium: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Sells souvenirs, maps, and explorer-themed gifts");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Expedition Supplies Co: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Provides camping equipment, survival tools, and outdoor accessories");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Safari Safari: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Specializes in wildlife-themed toys, plush animals, and safari gear");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Adventure Artifacts: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Features artifacts, fossils, and replicas from around the world");
                     break;
 
@@ -490,10 +534,14 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.WriteLine("in the Fantasy Frontier we have the: ");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Wizard's Wonders: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Offers magical wands, spellbooks, and fantasy-themed collectibles.");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Dragon's Hoard: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Sells dragon figurines, fantasy jewelry, and mystical artifacts.");
                     break;
 
@@ -501,10 +549,14 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.WriteLine("in the Wildlife Wonderland we have the: ");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Animal Kingdom Boutique:");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Offers wildlife-themed clothing, stuffed animals, and educational toys.");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Nature's Treasures:");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Sells nature-inspired home decor, books on wildlife, and eco-friendly gifts.");
                     break;
                     
@@ -512,10 +564,14 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.WriteLine("in the Sci-Fi Sector we have the: ");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Galaxy Gear Emporium: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Offers futuristic gadgets, space-themed toys, and sci-fi memorabilia.");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Alien Oddities: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Sells extraterrestrial souvenirs, UFO models, and alien-themed apparel.");
                     break;
 
@@ -523,10 +579,14 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.WriteLine("in the Enchanted Gardens we have the: ");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Fairy Fashions: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Offers fairy wings, enchanted dresses, and magical accessories.");
                     Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour Yellow
                     Console.WriteLine("Enchanted Elixirs: ");
+                    Console.ResetColor(); //converts text back to the default colour
                     Console.WriteLine("Sells herbal teas, potions, and mystical elixirs for relaxation and wellness.");
                     break;
                     
@@ -615,11 +675,13 @@ namespace chat_bot
 
             Console.WriteLine("");
             Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
             Console.WriteLine("Avalible Commands:");
-            Console.WriteLine("calculator       opens the price calculator");
-            Console.WriteLine("clear            clears text on screen");
-            Console.WriteLine("help -h          displayes this text");
-            Console.WriteLine("exit             exits program");
+            Console.ResetColor(); //converts text back to the default colour
+            Console.WriteLine("Calculator                                       opens the price calculator");
+            Console.WriteLine("Clear                                            clears text on screen");
+            Console.WriteLine("Help     -h                                      displayes this text");
+            Console.WriteLine("Exit                                             exits program");
         }
 
         static void Main(string[] args)
@@ -641,15 +703,19 @@ namespace chat_bot
                         Console.WriteLine("");
                         Console.WriteLine("The opening times for our parks are:");
                         Console.WriteLine("");
+                        Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                         Console.WriteLine("Day:             Opening times:          closing times:");
                         Console.WriteLine("Weekdays:");
+                        Console.ResetColor(); //converts text back to the default colour
                         Console.WriteLine("Monday           10:00                   20:00");
                         Console.WriteLine("Tuesday          10:00                   20:00");
                         Console.WriteLine("Wednesday        10:00                   20:00");
                         Console.WriteLine("Thersday         10:00                   20:00");
                         Console.WriteLine("Friday           10:00                   20:00");
                         Console.WriteLine("");
+                        Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                         Console.WriteLine("Weekends:");
+                        Console.ResetColor(); //converts text back to the default colour
                         Console.WriteLine("Saterday         10:00                   21:00");
                         Console.WriteLine("Sunday           11:00                   19:00");
                         break;
@@ -658,19 +724,30 @@ namespace chat_bot
                         Console.WriteLine("");
                         Console.WriteLine("the current ticket price are:");
                         Console.WriteLine("");
+                        Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                         Console.WriteLine("week Day:");
-                        Console.WriteLine("Adults:      £70.00");
-                        Console.WriteLine("Children:    £30.00");
+                        Console.ResetColor(); //converts text back to the default colour
+                        Console.WriteLine("Adults:                                  £70.00");
+                        Console.WriteLine("Children:                                £30.00");
                         Console.WriteLine("");
+                        Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                         Console.WriteLine("Weekend:");
-                        Console.WriteLine("Adults:      £80.00");
-                        Console.WriteLine("Chidren:     £50.00");
+                        Console.ResetColor(); //converts text back to the default colour
+                        Console.WriteLine("Adults:                                  £80.00");
+                        Console.WriteLine("Chidren:                                 £50.00");
                         Console.WriteLine("");
+                        Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                         Console.WriteLine("Specal Offers:");
-                        Console.WriteLine("Famaly pass: £210.00");
-                        Console.WriteLine("annual pass: £2500.00");
+                        Console.ResetColor(); //converts text back to the default colour
+                        Console.WriteLine("Famaly pass:                             £210.00");
+                        Console.WriteLine("Annual pass:                             £2500.00");
                         Console.WriteLine("");
-                        Console.WriteLine("to accsess a pricing calculator enter: price calculator");
+                        
+                        
+                        Console.Write("to accsess a pricing calculator enter:");
+                        Console.ForegroundColor = ConsoleColor.Green; //converts text the colour green
+                        Console.WriteLine(" Price Calculator");
+                        Console.ResetColor(); //converts text back to the default colour
                         break;
 
                     case "calculator" or "price calculator": //runs price calculator
