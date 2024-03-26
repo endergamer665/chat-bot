@@ -99,35 +99,35 @@ namespace chat_bot
             Console.WriteLine("your options are:");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("1");
             Console.ResetColor();
             Console.Write("] Adventure Alley");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("2");
             Console.ResetColor();
             Console.Write("] Fantasy Frontier");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("3");
             Console.ResetColor();
             Console.Write("] Wildlife Wonderland");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("4");
             Console.ResetColor();
             Console.Write("] Sci-Fi Sector");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("5");
             Console.ResetColor();
             Console.Write("] Enchanted Gardens");
@@ -253,37 +253,37 @@ namespace chat_bot
             Console.WriteLine("please pick from one of our sectors that have rides: ");
             Console.WriteLine("");
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("1");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Adventure Alley");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("2");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Fantasy Frontier");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("3");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Wildlife Wonderland");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("4");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Sci-Fi Sector");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("5");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Enchanted Gardens");
             Console.WriteLine("");
 
@@ -372,37 +372,37 @@ namespace chat_bot
             Console.WriteLine("please pick from one of our sectors to dispaly shops: ");
             Console.WriteLine("");
              Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("1");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Adventure Alley");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("2");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Fantasy Frontier");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("3");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Wildlife Wonderland");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("4");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Sci-Fi Sector");
             Console.WriteLine("");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("5");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Enchanted Gardens");
             Console.WriteLine("");
 
@@ -517,9 +517,9 @@ namespace chat_bot
                     |___/                   |_|                        
             ";
 
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.WriteLine(logo);
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
         }
 
         static void HelpText() //handles displaying help text 
@@ -528,37 +528,37 @@ namespace chat_bot
             Console.WriteLine("Frequently Used Questions:");
 
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("1");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Opening Times");
 
             Console.WriteLine("");
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("2");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Ticket Prices");
 
             Console.WriteLine("");
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("3");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Rides");
 
             Console.WriteLine("");
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("4");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Food");
 
             Console.WriteLine("");
             Console.Write("[");
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("5");
-            Console.ResetColor();
+            Console.ResetColor(); //converts text back to the default colour
             Console.Write("] Shops");
 
             Console.WriteLine("");
