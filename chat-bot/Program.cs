@@ -252,10 +252,40 @@ namespace chat_bot
             Console.WriteLine("some rides are not sutabel for children under 12:");
             Console.WriteLine("please pick from one of our sectors that have rides: ");
             Console.WriteLine("");
-            Console.WriteLine("Fantasy Frontier");
-            Console.WriteLine("Wildlife Wonderland");
-            Console.WriteLine("Sci-Fi Sector");
-            Console.WriteLine("Enchanted Gardens");
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("1");
+            Console.ResetColor();
+            Console.Write("] Adventure Alley");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("2");
+            Console.ResetColor();
+            Console.Write("] Fantasy Frontier");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("3");
+            Console.ResetColor();
+            Console.Write("] Wildlife Wonderland");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("4");
+            Console.ResetColor();
+            Console.Write("] Sci-Fi Sector");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("5");
+            Console.ResetColor();
+            Console.Write("] Enchanted Gardens");
+            Console.WriteLine("");
 
             Console.WriteLine("");
             Console.Write(">>> ");
@@ -341,11 +371,40 @@ namespace chat_bot
             Console.WriteLine("");
             Console.WriteLine("please pick from one of our sectors to dispaly shops: ");
             Console.WriteLine("");
-            Console.WriteLine("Adventure Alley");
-            Console.WriteLine("Fantasy Frontier");
-            Console.WriteLine("Wildlife Wonderland");
-            Console.WriteLine("Sci-Fi Sector");
-            Console.WriteLine("Enchanted Gardens");
+             Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("1");
+            Console.ResetColor();
+            Console.Write("] Adventure Alley");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("2");
+            Console.ResetColor();
+            Console.Write("] Fantasy Frontier");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("3");
+            Console.ResetColor();
+            Console.Write("] Wildlife Wonderland");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("4");
+            Console.ResetColor();
+            Console.Write("] Sci-Fi Sector");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("5");
+            Console.ResetColor();
+            Console.Write("] Enchanted Gardens");
+            Console.WriteLine("");
 
 
             Console.WriteLine("");
