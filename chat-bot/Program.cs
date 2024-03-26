@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Xml.Serialization;
-using System.Text;
-// using Colorful;
-// using Console = Colorful.Console;
 
 namespace chat_bot
 {
@@ -100,11 +97,41 @@ namespace chat_bot
 
             Console.WriteLine("where in the park do you want to eat? ");
             Console.WriteLine("your options are:");
-            Console.WriteLine("Adventure Alley");
-            Console.WriteLine("Fantasy Frontier");
-            Console.WriteLine("Wildlife Wonderland");
-            Console.WriteLine("Sci-Fi Sector");
-            Console.WriteLine("Enchanted Gardens");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("1");
+            Console.ResetColor();
+            Console.Write("] Adventure Alley");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("2");
+            Console.ResetColor();
+            Console.Write("] Fantasy Frontier");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("3");
+            Console.ResetColor();
+            Console.Write("] Wildlife Wonderland");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("4");
+            Console.ResetColor();
+            Console.Write("] Sci-Fi Sector");
+            Console.WriteLine("");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("5");
+            Console.ResetColor();
+            Console.Write("] Enchanted Gardens");
+            Console.WriteLine("");
 
             Console.WriteLine("");
             Console.Write(">>> ");
@@ -440,7 +467,42 @@ namespace chat_bot
         {
             Console.WriteLine("");
             Console.WriteLine("Frequently Used Questions:");
-            Console.WriteLine("[1] opening times \n[2] ticket prices \n[3] rides \n[4] food \n[5] shops");
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("1");
+            Console.ResetColor();
+            Console.Write("] Opening Times");
+
+            Console.WriteLine("");
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("2");
+            Console.ResetColor();
+            Console.Write("] Ticket Prices");
+
+            Console.WriteLine("");
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("3");
+            Console.ResetColor();
+            Console.Write("] Rides");
+
+            Console.WriteLine("");
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("4");
+            Console.ResetColor();
+            Console.Write("] Food");
+
+            Console.WriteLine("");
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("5");
+            Console.ResetColor();
+            Console.Write("] Shops");
+
+            Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("Avalible Commands:");
             Console.WriteLine("calculator       opens the price calculator");
