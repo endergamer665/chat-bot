@@ -771,16 +771,19 @@ namespace chat_bot
 
                     case "rides" or "3":
                         disprides();
+                        System.Threading.Thread.Sleep(400);
                         HelpText();
                         break;
 
                     case "food" or "4": //runs dipfood modual
                         dispfood();
+                        System.Threading.Thread.Sleep(400);
                         HelpText();   
                         break;
                     
                     case "shops" or "shop" or "5":
                         dispshops();
+                        System.Threading.Thread.Sleep(400);
                         HelpText();
                         break;
 
