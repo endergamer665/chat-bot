@@ -365,7 +365,7 @@ namespace chat_bot
             {
                 case "adventure alley" or "adventure" or "alley" or "1":
                     Console.WriteLine("");
-                    Console.WriteLine("the adventuer alley douse not have any rides but there is a wide array of shops");
+                    Console.WriteLine("the adventuer alley dose not have any rides but there is a wide array of shops");
                     Console.WriteLine("use the shop option to display the shops in each sector");
                     break;
                 
