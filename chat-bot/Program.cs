@@ -771,14 +771,17 @@ namespace chat_bot
 
                     case "rides" or "3":
                         disprides();
+                        HelpText();
                         break;
 
                     case "food" or "4": //runs dipfood modual
-                        dispfood();    
+                        dispfood();
+                        HelpText();   
                         break;
                     
                     case "shops" or "shop" or "5":
                         dispshops();
+                        HelpText();
                         break;
 
                     case "clear": //clears console 
