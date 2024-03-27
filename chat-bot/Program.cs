@@ -373,13 +373,16 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Fantasy Frontier:"); 
-                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("Dragon's Flight: ");
                     Console.ResetColor(); //converts text back to the default colour
-                    Console.WriteLine("");
+                    Console.WriteLine("A high-speed roller coaster that takes riders on a journey through the clouds,");
+                    Console.WriteLine("dodging fire-breathing dragons and soaring over mystical landscapes.");
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
-                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("Unicorn Carousel: ");
                     Console.ResetColor(); //converts text back to the default colour
+                    Console.WriteLine("A beautifully decorated carousel featuring magical unicorns instead of");
+                    Console.WriteLine("traditional horses, perfect for younger visitors and families.");
                     Console.WriteLine("");
                     break;
                 
@@ -387,13 +390,18 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Wildlife Wonderland:"); 
-                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("Safari Adventure: ");
                     Console.ResetColor(); //converts text back to the default colour
-                    Console.WriteLine("");
+                    Console.WriteLine("A safari jeep ride through a simulated African savanna, where visitors can spot");
+                    Console.WriteLine("animatronic wildlife such as lions, elephants, and giraffes in their natural ");
+                    Console.WriteLine("habitat");
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
-                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("Polar Explorer: ");
                     Console.ResetColor(); //converts text back to the default colour
+                    Console.WriteLine("A thrilling ride aboard a simulated Arctic exploration vehicle, navigating ");
+                    Console.WriteLine("through icy caves and encountering polar bears and seals along the way.");
+                    
                     Console.WriteLine("");
                     break;
 
@@ -401,13 +409,18 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Sci-Fi Sector: "); 
-                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("Galactic Expedition: ");
                     Console.ResetColor(); //converts text back to the default colour
-                    Console.WriteLine("");
+                    Console.WriteLine("A space-themed simulator ride that takes passengers on a thrilling journey");
+                    Console.WriteLine("through the cosmos, encountering alien planets, asteroid fields, and epic");
+                    Console.WriteLine("space battles.");
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
-                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("Cyber Coaster: ");
                     Console.ResetColor(); //converts text back to the default colour
+                    Console.WriteLine("A futuristic roller coaster featuring high-tech special effects and neon lighting,");
+                    Console.WriteLine("sending riders through a virtual reality world filled with robots, lasers, and");
+                    Console.WriteLine("futuristic cityscapes.");
                     Console.WriteLine("");
                     break;
 
@@ -415,14 +428,16 @@ namespace chat_bot
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
                     Console.WriteLine("Enchanted Gardens");
-                    Console.WriteLine("adult rides: ");
+                    Console.WriteLine("Enchanted River Rapids:");
                     Console.ResetColor(); //converts text back to the default colour
-                    Console.WriteLine("");
+                    Console.WriteLine("A gentle river rapids ride through a lush and enchanted forest, where riders");
+                    Console.WriteLine("encounter magical creatures like fairies, elves, and talking animals.");
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
-                    Console.WriteLine("child rides: ");
+                    Console.WriteLine("Pixie Spin:");
                     Console.ResetColor(); //converts text back to the default colour
-                    Console.WriteLine("");
+                    Console.WriteLine("A whimsical spinning ride that takes riders on a whirlwind adventure through a");
+                    Console.WriteLine("garden filled with oversized flowers, butterflies, and mischievous pixies.");
                     break;
 
                 case "calculator" or "price calculator": //runs price calculator
