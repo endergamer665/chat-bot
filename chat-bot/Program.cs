@@ -699,7 +699,7 @@ namespace chat_bot
             Console.WriteLine("Exit                                             exits program");
         }
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             logo();
             Console.WriteLine("welcome to the Ledend Parks Chatbot sevise");
