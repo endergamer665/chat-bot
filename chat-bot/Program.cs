@@ -15,7 +15,7 @@ namespace chat_bot
             int dayint = 0; //sets dayint value to 0 (dayint is used later)
             
             Console.WriteLine("");
-            Console.Write("how many adults: ");
+            Console.Write("how many adults are atending the park: ");
             int adult = Convert.ToInt32(Console.ReadLine()); //colects adult tickets
             if (adult == 0) //checks for no adult tickets
             {
@@ -631,7 +631,7 @@ namespace chat_bot
             }
         }
 
-        static void logo()
+        static void logo() //handles displying logo
         {
             string logo = @"   
              _                               _  ______          _        
@@ -642,55 +642,57 @@ namespace chat_bot
             \_____/\___|\__, |\___|_| |_|\__,_| \_|  \__,_|_|  |_|\_\___/
                          __/ |                                           
                         |___/                                            
-            ";
+            "; //defines logo variable
 
             Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
-            Console.WriteLine(logo);
+            Console.WriteLine(logo); //displyse variable logo which is defined above
             Console.ResetColor(); //converts text back to the default colour
         }
 
         static void HelpText() //handles displaying help text 
         {
             Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour to 
             Console.WriteLine("Frequently Used Questions:");
+            Console.ResetColor(); //converts text back to the default colour
 
             Console.Write("[");
             Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("1");
             Console.ResetColor(); //converts text back to the default colour
-            Console.Write("] Opening Times");
+            Console.Write("] Opening Times                                  displayes opening times for the park");
 
             Console.WriteLine("");
             Console.Write("[");
             Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("2");
             Console.ResetColor(); //converts text back to the default colour
-            Console.Write("] Ticket Prices");
+            Console.Write("] Ticket Prices                                  displays ticket prices and deals");
 
             Console.WriteLine("");
             Console.Write("[");
             Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("3");
             Console.ResetColor(); //converts text back to the default colour
-            Console.Write("] Rides");
+            Console.Write("] Rides                                          displyses rides in the park");
 
             Console.WriteLine("");
             Console.Write("[");
             Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("4");
             Console.ResetColor(); //converts text back to the default colour
-            Console.Write("] Food");
+            Console.Write("] Food                                           displys here you can get food in the park");
 
             Console.WriteLine("");
             Console.Write("[");
             Console.ForegroundColor = ConsoleColor.Red; //converts text the colour red
             Console.Write("5");
             Console.ResetColor(); //converts text back to the default colour
-            Console.Write("] Shops");
+            Console.Write("] Shops                                          displys shops that can be found in the park");
 
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour yellow
+            Console.ForegroundColor = ConsoleColor.Yellow; //converts text the colour to yellow
             Console.WriteLine("Avalible Commands:");
             Console.ResetColor(); //converts text back to the default colour
             Console.WriteLine("Calculator                                       opens the price calculator");
@@ -699,9 +701,9 @@ namespace chat_bot
             Console.WriteLine("Exit                                             exits program");
         }
 
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            logo();
+            logo(); //displyse logo
             Console.WriteLine("welcome to the Ledend Parks Chatbot sevise");
             HelpText();
 
@@ -710,7 +712,7 @@ namespace chat_bot
                 Console.WriteLine("");
                 Console.Write(">>> ");
                 string choice = Console.ReadLine();
-                choice = choice.ToLower();         
+                choice = choice.ToLower(); //converts user input to lower case    
 
                 switch (choice) //used to display text based on inputs above
                 {
@@ -793,7 +795,7 @@ namespace chat_bot
                         HelpText();
                         break;
 
-                    default: 
+                    default: //is displyed whaen inputs dose not fit previus contiotions
                         Console.WriteLine("");
                         Console.WriteLine("im sorry i dont understand try useing the frequently used questions:");
                         HelpText();
